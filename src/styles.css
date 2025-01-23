@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MarcellusSC-Regular";
+  src: local("MarcellusSC-Regular"),
+    url("./assets/fonts/PrimarySC-Regular.ttf") format("truetype");
+}
