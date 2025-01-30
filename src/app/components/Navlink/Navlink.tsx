@@ -1,8 +1,24 @@
 import { NavlinkProps } from "../../shared/models/navlink";
 
 export const Navlink = ({ name }: NavlinkProps) => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const sectionMap: { [key: string]: string } = {
+    "<About/>": "about",
+    "//Experience": "experience",
+    _Projects: "hero",
+    "{Contact}": "contact",
+  };
+
   return (
-    <div className="font-marcellus_sc_regular w-fit my-4 mx-8 p-2 flex items-center cursor-pointer border-t-2 border-b-2 border-transparent hover:text-primary hover:border-primary">
+    <div
+      onClick={() => scrollToSection(sectionMap[name])}
+      className="w-fit font-navbar py-6 px-10 flex items-center cursor-pointer border-l-4 border-black hover:text-primary"
+    >
       {name}
     </div>
   );
