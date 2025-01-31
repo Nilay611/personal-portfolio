@@ -31,8 +31,8 @@ export const Hero = () => {
                 iconPrimary={<FiArrowDownCircle />}
               />
               <img
-                src="./src/assets/images/3-lines.svg"
-                alt="Decorative green star"
+                src="./assets/images/3-lines.svg"
+                alt="Three lines"
                 className="w-12 h-12 absolute bottom-0 right-0"
               />
             </div>
@@ -56,8 +56,8 @@ export const Hero = () => {
         </div>
       </div>
       <img
-        src="./src/assets/images/arrow.svg"
-        alt="Decorative green star"
+        src="./assets/images/arrow.svg"
+        alt="Downwards arrow"
         className="w-32 h-32 absolute bottom-2 left-1/2"
       />
     </section>

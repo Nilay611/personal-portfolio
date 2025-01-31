@@ -8,14 +8,14 @@ export const Home = () => {
     <main className="bg-secondary">
       <div className="absolute top-20 right-0">
         <img
-          src="./src/assets/images/pink-star.svg"
-          alt="Decorative green star"
+          src="./assets/images/pink-star.svg"
+          alt="Decorative pink star"
           className="w-32 h-32"
         />
       </div>
       <div className="absolute bottom-20 left-20">
         <img
-          src="./src/assets/images/green-star.svg"
+          src="./assets/images/green-star.svg"
           alt="Decorative green star"
           className="w-32 h-32"
         />

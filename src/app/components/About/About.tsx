@@ -7,8 +7,8 @@ export const About = () => {
       className="min-h-screen flex flex-col items-center justify-center px-4 py-20 relative"
     >
       <img
-        src="./src/assets/images/blue-stars.svg"
-        alt="Decorative green star"
+        src="./assets/images/blue-stars.svg"
+        alt="Decorative blue stars"
         className="w-32 h-32 absolute bottom-1/3 right-1/10"
       />
       <h1 className="text-6xl font-black text-center mb-12 font-primary">
@@ -35,8 +35,8 @@ export const About = () => {
         text="{...Contact me}"
       />
       <img
-        src="./src/assets/images/squiggly-line.svg"
-        alt="Decorative green star"
+        src="./assets/images/squiggly-line.svg"
+        alt="Squiggly line"
         className="w-32 h-32 absolute top-1/3 left-1/10"
       />
     </section>
