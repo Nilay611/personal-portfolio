@@ -21,7 +21,7 @@ export const Button = ({
 
   let classList =
     classes +
-    " shadow-[4px_4px_0px_0px_rgba(75,75,75,1)] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all";
+    " lg:text-lg md:text-md sm:text-sm shadow-[4px_4px_0px_0px_rgba(75,75,75,1)] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all";
   return (
     <button className={classList} onClick={scrollOrRedirect}>
       <div className="flex items-center gap-2">
