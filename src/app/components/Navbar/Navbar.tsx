@@ -16,7 +16,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="font-navbar fixed top-4 w-screen flex justify-between 2xl:px-32 xl:px-16 lg:px-8 md:px-4 sm:px-2 z-50">
+    <div className="font-navbar fixed top-4 w-screen flex justify-between 2xl:px-32 xl:px-16 lg:px-8 md:px-4 sm:px-2 z-50 lg:visible invisible">
       <div className="flex items-center justify-between w-full border-4 border-black bg-white/70 backdrop-blur-md shadow-[4px_4px_0px_0px_rgba(75,75,75,1)] rounded-none">
         <div className="logo-container flex items-center 2xl:m-6 xl:m-5 lg:m-4 md:m-3 sm:m-2">
           <div
@@ -33,8 +33,9 @@ export const Navbar = () => {
           <Navlink id={4} name="{Contact}" />
           <div className="border-l-4 border-black">
             <Button
-              classes="w-fit h-fit lg:my-4 md:my-3 sm:my-2 lg:mx-8 md:mx-6 sm:mx-2 lg:px-6 md:px-4 sm:px-2 lg:py-2 sm:py-1 text-base bg-primary 
-              font-navbar font-bold text-white w-fit cursor-pointer border-4 border-primary hover:text-black hover:border-black"
+              classes="w-fit h-fit lg:my-4 md:my-3 sm:my-2 lg:mx-8 md:mx-6 sm:mx-2 lg:px-6 md:px-4 sm:px-2 lg:py-2 sm:py-1 bg-primary 
+              font-navbar font-bold text-white w-fit cursor-pointer border-4 border-primary hover:text-black hover:border-black
+              lg:text-lg md:text-md sm:text-sm"
               text="Resume"
               iconSecondary={<FaArrowUpRightFromSquare />}
               hrefType="link"
